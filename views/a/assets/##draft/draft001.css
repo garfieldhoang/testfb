@@ -1,0 +1,126 @@
+/* DRAFT */
+
+.productC__type1 {
+    width: 984px;
+    height: 730px;
+    /*border-style: solid;*/
+    top: 165px;
+    left: 36px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .row {
+    width: 984px;
+    height: 356px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .row__1 {
+  }
+  
+  .row__2 {
+  }
+  
+  .product {
+    position: relative;
+    float: left;
+    /*position: absolute;*/
+    width: 186px;
+    height: 356px;
+    /* opacity: .5; */
+    /*background: blue;*/
+    /*top: 165px;*/
+    /*left: 36px;*/
+    /*box-shadow: 7px 7px 5px 1px rgb(0 0 0 / 25%);*/
+  
+    box-shadow: 5px 5px 4px 0px rgb(0 0 0 / 25%);
+    transition: .3s;
+  }
+  
+  .product:hover {
+    box-shadow: 5px 5px 4px 0px rgb(0 0 0 / 75%);
+  }
+  
+  .product__img {
+    /*position: absolute;*/
+    width: 100%;
+    height: 186px;
+    background: url('../guide/box.png');
+    background-size: cover;
+    /* opacity: .1; */
+  }
+  
+  .product__nimg {
+    width: 100%;
+    height: calc(100% - 186px);
+    /*background: black;*/
+    padding: 10px 20px;
+    /*position: relative;*/
+  }
+  
+  .product__txt {
+    /*position: absolute;*/
+    width: 100%;
+    height: 100px;
+    /*background: black;*/
+    /*border-style: solid;*/
+  }
+  
+  .product__txt > h1,
+  .product__txt > h2 {
+    font-size: 14px;
+    font-weight: 900;
+  }
+  
+  .product__txt > h1{
+    margin-top: 6px;
+    margin-bottom: 7px ;
+  }
+  
+  .product__txt > h2 {
+    /*margin: 7px 0;*/
+  }
+  
+  .product__txt > p {
+    font-style: italic;
+    font-size: 10px; 
+    color: #888888;
+    margin: 23px 0;
+  }
+  
+  .btnBuy {
+    width: 92px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    bottom: 16px;  
+  }
+  
+  .btnBuy > p {
+    color: #ccc;
+    font-size: 11px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 200;  
+  }
+  
+  .btnBuy,
+  .btnBuy > p {
+    transition: .3s;
+  }
+  
+  .btnBuy:hover {
+    background: #ccc;
+    cursor: pointer;
+  }
+  
+  .btnBuy:hover p {
+    color: black;
+    font-size: 9px;
+  }
+
+/* /// */

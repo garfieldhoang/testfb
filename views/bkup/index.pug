@@ -1,0 +1,49 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='icon', href='./assets/img/hmm.png', type='image/x-icon')
+    title TC PRJ
+    link(rel='stylesheet', href='/assets/css/style.css')
+  body
+    // <div class="logo">
+    img.logo(src='./assets/img/hmm.png')
+    // </div>
+    .mainC
+      .input-box.input-box__sl
+        span.details SL %
+        // <br>
+        input(type='text', placeholder='SL % here')
+      .input-box.input-box__u
+        span.details SL U
+        // <br>
+        input(type='text', placeholder='SL U here', value='70')
+      .input-box.input-box__lev
+        span.details Lev x
+        // <br>
+        input(type='text', placeholder='Lev X here')
+      .slidecontainer
+        span.details
+          | Lev: 
+          span#levVal
+          | x
+        input#myRange.slider(type='range', min='1', max='100', value='50')
+      .res
+        p(style='text-align: center;') AMOUNT:
+        p
+          span#js-res
+          | U
+        p
+          span#js-res--big
+          | U
+        .btn-copy(onclick='btnCopy()')
+          | COPY
+      br
+      br
+      br
+      a#toMoon.changeSBotic(href='./moon.html')
+      br
+      a#toCur.changeSBotic(href='./othersS/currency/index.html')
+    script(src='./assets/js/style.js')

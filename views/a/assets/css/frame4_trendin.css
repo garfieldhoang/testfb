@@ -1,0 +1,127 @@
+/* Frame 4 */
+.frame4 {
+    height: 546px;
+    width: 100%;
+    /* background: yellow; */
+    position: relative;
+    background-color: #dadada;
+    /* background-color: #f5f5f5; */
+}
+
+.f4__yellow {
+    height: 50%;
+    width: 100%;
+    background: #cd9b2c;    
+    position: absolute;
+}
+
+.guidef4 {
+    height: 50%;
+    width: var(--defW);
+    background: #cd9b2c;
+    position: absolute;
+    /* background-image: url('./TRENDING.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 1;
+    /* display: none; */
+}
+
+.f4__main {
+    position: absolute;
+    height: 100px;
+    height: 434px;
+    width: 600px;
+    width: 100%;
+    /* background-color: aqua; */
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    /* display: none; */
+}
+
+.f4__item {
+    height: 434px;
+    width: 228px;
+    /* background-color: green; */
+    margin: 0 10px;
+    position: relative;
+    background-color: white;
+    transition: .3s;
+}
+
+.f4__item:hover {
+    /* height: 442px; */
+    width: 236px;
+    filter: drop-shadow(3px 3px 3px black);
+    /* border-style: solid; */
+}
+
+.f4__item:hover .f4__itsMain {
+    width: 200px;
+}
+
+.f4__itsMain {
+    position: absolute;
+    width: 184px;
+    height: 366px;
+    /* padding: 100px; */
+    transition: .5s;
+}
+
+.f4__btn {
+    background-color: #fec239;
+    width: 92px;
+    height: 28px;
+    position: absolute;
+    bottom: 14px;
+    right: 22px;
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.8));
+    line-height: 28px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(106, 106, 106);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.f4__btn:hover {
+    filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.8));
+    font-size: 11px;
+}
+
+.f4__img{
+    width: 100%;
+    height: 184px;
+    background-color: #ccc;
+    background-image: url('../img/products/trending/box.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.f4__txt{
+    width: 100%;
+    height: 182px;
+    background-color: white;
+    opacity: 1;
+}
+
+.f4__txt > h1 {
+    font-size: 20px;
+    /* margin: 10px 0; */
+    padding: 10px 0;
+}
+
+.f4__txt > h2 {
+    font-size: 19px;
+}
+.f4__txt > p {
+    font-size: 11px;
+    text-align: justify;
+    padding: 14px 0;
+    color: rgb(73, 73, 73);
+    font-style: italic;
+}
